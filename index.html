@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body class="login">
+    <h1>Welcome to Tanzid Website !!! </h1>
+    <form class="loginForm">
+        <h2>Log In</h2>
+        <div class="login-input">
+            <img width="20" height="20" src="https://img.icons8.com/material-rounded/20/user.png" alt="user" />
+            <input type="text" id="username" placeholder="Username" required="required">
+        </div>
+        <div class="login-input">
+            <img width="20" height="20" src="https://img.icons8.com/material-rounded/20/password.png" alt="password" />
+            <input type="password" id="password" placeholder="Password" required="required">
+        </div>
+        <div class="show-hide">
+            <input type="checkbox" id="showPasswordCheckbox">
+            <p>Show Password</p>
+        </div>
+        <div class="login-btn">
+            <button id="submit" type="button" onclick="login()">Login</button>
+        </div>
+        <div class="login-text">
+            <p>Forgot </p><a href="">Password?</a>
+        </div>
+        <div class="login-text">
+            <p>Don't have an account? </p><a href="">Sign Up.</a>
+        </div>
+    </form>
+
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>
