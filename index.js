@@ -26,7 +26,7 @@ document.getElementById("submit").addEventListener("click", function () {
   ) {
     window.location.href = "dashboard.html";
   } else {
-    alert("Worng Information!");
+    alert("Invalid username or Password!");
   }
 });
 
